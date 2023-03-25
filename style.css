@@ -1,0 +1,53 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "New Tegomin", serif;
+  color: rgb(255, 255, 255);
+}
+.btitle {
+  color: rgb(0, 0, 0);
+}
+div {
+  background-color: rgb(0, 0, 0);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 140, 0);
+  text-align: center;
+}
+
+
+li a {
+  display: block;
+  color: rgb(255, 191, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li a:hover {
+  background-color: rgb(87, 87, 87);
+}
